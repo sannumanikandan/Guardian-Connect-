@@ -1,0 +1,48 @@
+// =============================================================================
+// app/build.gradle — reference snippet
+// =============================================================================
+// When Android Studio creates a new "Empty Views Activity" project with
+// Java, you will get a build.gradle that looks similar to this. Make sure
+// these two things are true:
+//   1. minSdk is 21 or higher (Android 5.0 Lollipop).
+//   2. The Material Components library is included.
+//
+// You almost certainly do NOT need to change anything — the default template
+// already gives you both. This file is just here so you can cross-check.
+// =============================================================================
+
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.guardianconnect'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.guardianconnect"
+        minSdk 21            // required for modern Bluetooth API surface
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'),
+                          'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.11.0'
+    implementation 'androidx.core:core:1.12.0'
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand colors (matches Guardian Connect logo) -->
+    <color name="primary">#6A1B9A</color>
+    <color name="primary_dark">#4E0078</color>
+    <color name="primary_light">#E4B5FF</color>
+    <color name="accent">#DA9CFF</color>
+
+    <!-- Surfaces -->
+    <color name="background_dark">#0D0B10</color>
+    <color name="surface_card">#1A1720</color>
+    <color name="surface_card_light">#2A2430</color>
+
+    <!-- Text -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B8ADC0</color>
+    <color name="text_hint">#7F7383</color>
+
+    <!-- Alert colors -->
+    <color name="sos_red">#E53935</color>
+    <color name="sos_red_dark">#B71C1C</color>
+    <color name="success_green">#2E7D32</color>
+    <color name="warning_orange">#F57C00</color>
+
+    <!-- System -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

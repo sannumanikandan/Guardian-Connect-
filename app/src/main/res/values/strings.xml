@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Guardian Connect</string>
+    <string name="app_tagline">Health Monitoring &amp; Emergency Response</string>
+
+    <!-- Login -->
+    <string name="login_welcome">Welcome Back</string>
+    <string name="login_subtitle">Sign in to monitor your vitals</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="login_hint_demo">Demo: any email / password</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Live Vitals</string>
+    <string name="label_bpm">BPM</string>
+    <string name="label_heart_rate">Heart Rate</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_connected">Connected to HC-05</string>
+    <string name="btn_connect_bt">Connect to HC-05</string>
+    <string name="btn_disconnect_bt">Disconnect</string>
+    <string name="btn_sos">SOS – Send Alert</string>
+    <string name="btn_emergency">Call Emergency Contact</string>
+
+    <!-- Messages -->
+    <string name="msg_bt_not_supported">Bluetooth is not supported on this device</string>
+    <string name="msg_bt_not_enabled">Please enable Bluetooth</string>
+    <string name="msg_hc05_not_paired">HC-05 not found in paired devices. Pair it from system settings first.</string>
+    <string name="msg_sms_sent">SOS message sent successfully</string>
+    <string name="msg_sms_failed">Failed to send SOS message</string>
+    <string name="sos_text">SOS! I need help. My current heart rate is %1$s BPM. Please contact me immediately. — Sent via Guardian Connect</string>
+
+    <!-- Emergency contact (editable) -->
+    <string name="label_contact">Emergency Contact</string>
+    <string name="label_not_set">Not set — tap Edit</string>
+    <string name="btn_edit">Edit</string>
+    <string name="dialog_set_contact_title">Set Emergency Contact</string>
+    <string name="dialog_set_contact_msg">Enter a phone number in international format.\n\nExample: +919876543210</string>
+    <string name="hint_phone_number">+91XXXXXXXXXX</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="msg_contact_saved">Emergency contact saved</string>
+    <string name="msg_invalid_number">Invalid phone number. Include country code, e.g. +91…</string>
+    <string name="msg_no_contact_set">Please set an emergency contact first (tap Edit next to the number)</string>
+    <string name="msg_sms_generic_failure">SMS send failed (generic failure). The phone may not be able to send SMS right now.</string>
+    <string name="msg_sms_no_service">No cellular service. Check signal bars and that your SIM has messaging credit.</string>
+    <string name="msg_sms_null_pdu">SMS failed: null PDU.</string>
+    <string name="msg_sms_radio_off">Phone radio is off. Turn off airplane mode and try again.</string>
+    <string name="msg_sms_no_permission">SMS permission denied. Enable it in Settings → Apps → Guardian Connect → Permissions.</string>
+</resources>
